@@ -1,0 +1,14 @@
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.Form1.resources
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.Properties.Resources.resources
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.csproj.GenerateResource.cache
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.csproj.CoreCompileInputs.cache
+C:\Users\leona\source\repos\cad_clientes\bin\Debug\cad_clientes.exe.config
+C:\Users\leona\source\repos\cad_clientes\bin\Debug\cad_clientes.exe
+C:\Users\leona\source\repos\cad_clientes\bin\Debug\cad_clientes.pdb
+C:\Users\leona\source\repos\cad_clientes\bin\Debug\MySql.Data.dll
+C:\Users\leona\source\repos\cad_clientes\bin\Debug\MySql.Data.xml
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.csproj.CopyComplete
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.exe
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.pdb
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.csproj.ResolveComReference.cache
+C:\Users\leona\source\repos\cad_clientes\obj\Debug\cad_clientes.csprojAssemblyReference.cache
