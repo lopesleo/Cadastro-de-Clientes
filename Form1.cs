@@ -28,7 +28,7 @@ namespace cad_clientes
         {
             try
             {
-                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=0305040305;");
+                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=123;");
                 strSQL = "INSERT INTO CAD_CLIENTE (NOME,NUMERO,CPF,EMAIL) VALUES (@NOME,@NUMERO,@CPF,@EMAIL)";
                 command = new MySqlCommand(strSQL, connection);
                 command.Parameters.AddWithValue("@NOME", Tbx_Name.Text);
