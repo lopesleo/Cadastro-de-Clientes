@@ -81,7 +81,7 @@ namespace cad_clientes
         {
             try
             {
-                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=0305040305;");
+                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=123;");
                 strSQL = "UPDATE CAD_CLIENTE SET NOME = @NOME, NUMERO= @NUMERO, EMAIL= @EMAIL, CPF=@CPF WHERE ID=@ID";
                 command = new MySqlCommand(strSQL, connection);
                 command.Parameters.AddWithValue("@NOME", Tbx_Name.Text);
@@ -142,7 +142,7 @@ namespace cad_clientes
         {
             try
             {
-                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=0305040305;");
+                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=123;");
                 strSQL = "SELECT * FROM CAD_CLIENTE WHERE ID=@ID or NUMERO=@NUMBER OR NOME=@NAME OR CPF=@CPF    ";
                 command = new MySqlCommand(strSQL, connection);
                 string cpf = Tbx_CPF.Text;
@@ -195,7 +195,7 @@ namespace cad_clientes
         {
             try
             {
-                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=0305040305;");
+                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=123;");
                 strSQL = "SELECT * FROM CAD_CLIENTE";
 
                 da = new MySqlDataAdapter(strSQL, connection);
@@ -223,7 +223,7 @@ namespace cad_clientes
         {
             try
             {
-                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=0305040305;");
+                connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=123;");
                 strSQL = "DELETE FROM CAD_CLIENTE WHERE ID = @ID";
                 command = new MySqlCommand(strSQL, connection);
                 command.Parameters.AddWithValue("@ID", Tbx_ID.Text);
@@ -323,7 +323,7 @@ namespace cad_clientes
         }
         public bool verificaCPF(string cpf)
         {
-            connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=0305040305;");
+            connection = new MySqlConnection("Server=localhost;Database=clientes;User Id=Leo;Password=123;");
             strSQL = "SELECT COUNT(1) FROM CAD_CLIENTE WHERE CPF=@CPF";
             command = new MySqlCommand(strSQL, connection);
 
